@@ -1,0 +1,42 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dW5iaWFzZWQta29pLTExLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyBaAI4-SZ-lodYiItbuxbffKMFwAzGGY0E"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dW5iaWFzZWQta29pLTExLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyBaAI4-SZ-lodYiItbuxbffKMFwAzGGY0E"
+      }
+    },
+    "preview3": {
+      "developmentClient": true,
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dW5iaWFzZWQta29pLTExLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyBaAI4-SZ-lodYiItbuxbffKMFwAzGGY0E"
+      }
+    },
+    "preview4": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dW5iaWFzZWQta29pLTExLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyBaAI4-SZ-lodYiItbuxbffKMFwAzGGY0E"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dW5iaWFzZWQta29pLTExLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyBaAI4-SZ-lodYiItbuxbffKMFwAzGGY0E"
+      }
+    }
+  }
+}
